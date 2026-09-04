@@ -64,7 +64,7 @@ function MainApp() {
         {/* HERO BANNER */}
         <div 
           className="relative w-full h-64 sm:h-80 rounded-[32px] overflow-hidden shadow-xl flex items-center border border-white/30"
-          style={{ backgroundImage: 'url(/images/parallax/ezgif-frame-001.jpg)', backgroundSize: 'cover', backgroundPosition: 'center' }}
+          style={{ backgroundImage: `url(${import.meta.env.BASE_URL}images/parallax/ezgif-frame-004.jpg)', backgroundSize: 'cover', backgroundPosition: 'center' }}
         >
           {/* Dark overlay for text readability */}
           <div className="absolute inset-0 bg-gradient-to-r from-black/60 via-black/30 to-transparent" />
