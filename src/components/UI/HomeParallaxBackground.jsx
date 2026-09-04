@@ -14,7 +14,7 @@ export const HomeParallaxBackground = () => {
     for (let i = 1; i <= totalFrames; i++) {
       const img = new Image();
       const paddedNum = i.toString().padStart(3, '0');
-      img.src = `/images/parallax/ezgif-frame-${paddedNum}.jpg`;
+      img.src = `${import.meta.env.BASE_URL}images/parallax/ezgif-frame-${paddedNum}.jpg`;;
       img.onload = () => {
         loadedCount++;
         setLoaded(loadedCount);
